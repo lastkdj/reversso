@@ -33,7 +33,7 @@ const Social = () => {
           <button className="buttonsocial" type="button">
             <div className="grid">
               <img src={fb} alt="" className="fbmobile" />
-              <p> Continua con Apple ID</p>
+              <p> Continua con Facebook</p>
             </div>
           </button>
         </div>
@@ -41,7 +41,7 @@ const Social = () => {
           <button className="buttonsocial" type="button">
             <div className="grid">
               <img src={google} alt="" className="goomobile" />
-              <p> Continua con Apple ID</p>
+              <p> Continua con Google</p>
             </div>
           </button>
         </div>
