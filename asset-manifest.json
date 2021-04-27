@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reversso/static/css/main.0f8fa035.chunk.css",
-    "main.js": "/reversso/static/js/main.be9a605f.chunk.js",
-    "main.js.map": "/reversso/static/js/main.be9a605f.chunk.js.map",
+    "main.js": "/reversso/static/js/main.54e6dae5.chunk.js",
+    "main.js.map": "/reversso/static/js/main.54e6dae5.chunk.js.map",
     "runtime-main.js": "/reversso/static/js/runtime-main.e5f33241.js",
     "runtime-main.js.map": "/reversso/static/js/runtime-main.e5f33241.js.map",
     "static/js/2.a22ebf12.chunk.js": "/reversso/static/js/2.a22ebf12.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.e5f33241.js",
     "static/js/2.a22ebf12.chunk.js",
     "static/css/main.0f8fa035.chunk.css",
-    "static/js/main.be9a605f.chunk.js"
+    "static/js/main.54e6dae5.chunk.js"
   ]
 }
