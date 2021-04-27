@@ -1,4 +1,3 @@
-import "./App.css";
 import Inicio from "./Inicio/Inicio";
 
 function App() {

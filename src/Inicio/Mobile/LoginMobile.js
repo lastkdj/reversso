@@ -4,7 +4,6 @@ import "./Styles/loginStyles.css";
 import LoginForm from "./MobileComponents/LoginForm";
 import bp from "../Componentes/Assets/bePositive.svg";
 import left from "../Componentes/Assets/left.svg";
-import LeftPanel from "../LeftPanel";
 
 const RightPanel = (props) => {
   const iniciaSesion = (e) => {
@@ -28,7 +27,7 @@ const RightPanel = (props) => {
     <div className="loginMobilegrid" id="leftPanel">
       <div>
         <div>
-          <img className="arrow" src={left} onClick={goHome} />
+          <img className="arrow" src={left} onClick={goHome} alt="" />
         </div>
         <div className="loginlogomobile">
           <img className="loginbp" src={bp} alt="" />

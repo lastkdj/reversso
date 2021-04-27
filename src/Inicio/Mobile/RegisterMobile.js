@@ -27,7 +27,7 @@ const RightPanel = (props) => {
     <div className="loginMobilegrid" id="leftPanel">
       <div>
         <div>
-          <img className="arrow " src={left} onClick={goHome} />
+          <img className="arrow " src={left} onClick={goHome} alt="" />
         </div>
         <div className="loginlogomobile">
           <img className="loginbp" src={bp} alt="" />

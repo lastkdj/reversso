@@ -10,7 +10,6 @@ import Success from "./Success";
 const Mobile = () => {
   const [login, setLogin] = useState(false);
   const [register, setRegister] = useState(false);
-  const [success, setSuccess] = useState(false);
 
   return (
     <div className="iniciomobile">
