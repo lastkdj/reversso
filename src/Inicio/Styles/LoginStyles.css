@@ -1,0 +1,79 @@
+.rightPanel {
+  animation: fadeIn ease 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.login {
+  width: 374px;
+  height: 629px;
+}
+
+.tittle {
+  color: #ec552f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+.subtittle {
+  color: #ec552f;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.label {
+  font-size: 0.9em;
+  color: #215e99;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px;
+}
+
+.labeltop {
+  font-size: 0.9em;
+  color: #ec552f;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 0px 30px;
+}
+
+.labellink {
+  color: #ec552f;
+  cursor: pointer;
+}
+
+.newuserdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.span {
+  color: #ec552f;
+  cursor: pointer;
+}
+
+@media (max-width: 414px) {
+  .rightPanel {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

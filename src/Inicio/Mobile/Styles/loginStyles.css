@@ -1,0 +1,68 @@
+.loginlogomobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnloginmobileone {
+  color: white;
+  border-radius: 4px;
+  background-color: #ec552f;
+  border: none;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+  margin: 5px 0px;
+}
+
+.btnloginmobiletwo {
+  color: #215e99;
+  border-radius: 4px;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+  margin: 5px 0px;
+  border-color: #215e99;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.forgotmobile {
+  font-size: 0.9em;
+  color: #215e99;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+.labeltopmobile {
+  font-size: 0.9em;
+  color: #ec552f;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 0px;
+}
+
+.linediv {
+  display: flex;
+  justify-content: center;
+}
+
+.labelmobile {
+  font-size: 0.8em;
+  color: #215e99;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 20px 0px;
+}

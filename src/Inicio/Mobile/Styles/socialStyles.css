@@ -1,0 +1,40 @@
+.sociallinediv {
+  display: flex;
+  justify-content: center;
+}
+
+.tittlesocialdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.tittlesocial {
+  margin: 20px;
+  color: #215599;
+}
+
+.socialbuttongrid {
+  margin: 20px 0px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
+.appmobile {
+  margin: 0px 20px;
+  width: 1.2em;
+}
+
+.fbmobile {
+  width: 0.8em;
+  fill: red;
+  margin: 0px 20px;
+}
+
+.goomobile {
+  margin: 0px 20px;
+  width: 1.2em;
+  font-size: 1.2em;
+}

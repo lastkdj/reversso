@@ -1,0 +1,26 @@
+.backtologin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.terms {
+  font-size: 0.7em;
+  color: #ec552f;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin: 5px 0px 0px 5px;
+}
+
+.termsforgotdiv {
+  width: 100%;
+  display: flex;
+}
+
+.labelmobileregister {
+  font-size: 0.8em;
+  color: #215e99;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 0px 10px 0px;
+}

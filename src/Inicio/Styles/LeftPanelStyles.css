@@ -1,0 +1,40 @@
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  background-color: #fbefec;
+  padding: 70px;
+}
+
+.imagepositive {
+  width: 208.11px;
+  height: 83px;
+}
+
+.tittlediv {
+  width: 500px;
+}
+
+.tittleleft {
+  color: #215e99;
+  font-size: 2.3em;
+  font-weight: 600;
+  margin-left: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.smiledivBig {
+  display: flex;
+  padding-left: 310px;
+}
+
+.smile {
+  position: relative;
+  bottom: 50px;
+}
+
+@media (max-width: 414px) {
+  .leftPanel {
+    display: none;
+  }
+}
