@@ -10,9 +10,12 @@ const RegisterForm = (props) => {
 
   const registerUser = (e) => {
     e.preventDefault();
-
-    props.setSuccess(true);
+    document.getElementById("dekstopsuccess").style.height = "37px";
     props.setLogin(true);
+
+    setTimeout(() => {
+      document.getElementById("dekstopsuccess").style.height = "0px";
+    }, 3000);
   };
 
   function myFunction() {

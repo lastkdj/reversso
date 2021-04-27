@@ -18,7 +18,7 @@ const RightPanel = (props) => {
 
         <LoginForm setLogin={props.setLogin} login={props.login} />
         <div className="account">
-          <h4 className="labellink">O inicia sesion con otra cuenta</h4>
+          <h4 className="labellink">O inicia sesión con otra cuenta</h4>
         </div>
         <Socials />
         <div className="newuserdiv">

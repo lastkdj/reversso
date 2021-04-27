@@ -7,7 +7,6 @@ const RightPanel = (props) => {
   const iniciaSesion = (e) => {
     e.preventDefault();
     props.setLogin(!props.login);
-    props.setSuccess(false);
   };
 
   return (
@@ -17,11 +16,7 @@ const RightPanel = (props) => {
           <h1 className="tittle">Registrate en be positive</h1>
         </div>
 
-        <RegisterForm
-          setSuccess={props.setSuccess}
-          success={props.success}
-          setLogin={props.setLogin}
-        />
+        <RegisterForm setLogin={props.setLogin} />
         <div className="account">
           <h4 className="labellink">O inicia sesion con otra cuenta</h4>
         </div>

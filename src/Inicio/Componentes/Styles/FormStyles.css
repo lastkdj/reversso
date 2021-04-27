@@ -121,9 +121,17 @@ input:focus {
 
 .success {
   position: absolute;
+  display: flex;
+  justify-content: center;
   width: 100%;
   background-color: #4ca484;
   animation: fadeInTop ease 0.7s;
+  top: 0;
+  height: 0px;
+  position: fixed;
+  z-index: 1;
+  transition: 0.5s;
+  overflow-x: hidden;
 }
 
 .successtext {
@@ -131,4 +139,5 @@ input:focus {
   text-align: center;
   font-size: 1em;
   font-weight: 400;
+  margin: 5px 0px;
 }

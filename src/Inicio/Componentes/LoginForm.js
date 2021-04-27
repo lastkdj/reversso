@@ -55,7 +55,7 @@ const LoginForm = (props) => {
       </div>
       <br></br>
       <button className="button" type="button">
-        Inicia Sesion
+        Iniciar Sesión
       </button>
     </form>
   );

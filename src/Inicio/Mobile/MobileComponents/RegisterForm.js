@@ -30,6 +30,10 @@ const LoginForm = (props) => {
     document.getElementById("success").style.height = "77px";
     props.setRegister(false);
     props.setLogin(true);
+
+    setTimeout(() => {
+      document.getElementById("success").style.height = "0px";
+    }, 3000);
   };
 
   const Checking = () => {

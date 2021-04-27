@@ -8,23 +8,17 @@ import Mobile from "./Mobile/Mobile";
 
 const Inicio = () => {
   const [login, setLogin] = useState(true);
-  const [success, setSuccess] = useState(false);
 
   return (
     <div className="inicio">
-      {success ? <Success setSuccess={setSuccess} /> : null}
+      <Success />
       <Mobile />
 
       <LeftPanel />
       {login ? (
         <Login setLogin={setLogin} login={login} />
       ) : (
-        <Register
-          setLogin={setLogin}
-          login={login}
-          setSuccess={setSuccess}
-          success={success}
-        />
+        <Register setLogin={setLogin} login={login} />
       )}
     </div>
   );
